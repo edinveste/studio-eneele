@@ -47,15 +47,15 @@ collections:
               {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
             ]}
             
-          - {label: "Resultados - Sobrancelhas", name: "resultados_sobrancelhas", widget: "object", fields: [
+          - {label: "Resultados - Sobrancelhas", name: "resultados_sobrancelhas", widget: "object", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image"},
               {label: "Imagem Depois", name: "img_depois", widget: "image"}
             ]}
-          - {label: "Resultados - Cílios", name: "resultados_cilios", widget: "object", fields: [
+          - {label: "Resultados - Cílios", name: "resultados_cilios", widget: "object", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
             ]}
-          - {label: "Resultados - Unhas", name: "resultados_unhas", widget: "object", fields: [
+          - {label: "Resultados - Unhas", name: "resultados_unhas", widget: "object", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
             ]}

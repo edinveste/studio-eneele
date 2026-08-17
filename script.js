@@ -86,7 +86,7 @@ servicePanels.forEach(panel => {
 });
 
 // Abas de serviços: Sobrancelhas / Cílios / Unhas
-const tabButtons = document.querySelectorAll('.tab-btn');
+const tabButtons = document.querySelectorAll('#servicos .tab-btn');
 const tabPanels = document.querySelectorAll('.tab-panel');
 
 tabButtons.forEach((btn) => {

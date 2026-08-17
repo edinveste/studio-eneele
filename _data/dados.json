@@ -1,5 +1,15 @@
 {
   "whatsapp_url": "https://wa.me/5511987343215?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%21",
+  "trust_clientes": "+1.100",
+  "sobre_img": "enelle.jpg",
+  "estatistica_1": "+1.100",
+  "estatistica_2": "108+",
+  "estatistica_3": "5",
+  "estatistica_4": "100%",
+  "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
+  "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
+  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe.",
+  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
   "resultados_cilios": {
     "img_antes": "",
     "img_depois": ""
@@ -23,7 +33,6 @@
       "desc": "testando silios"
     }
   ],
-  "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
   "servicos_sobrancelhas": [
     {
       "titulo": "Design de Sobrancelhas",
@@ -60,8 +69,5 @@
       "titulo": "teste",
       "desc": "testando descrição"
     }
-  ],
-  "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
-  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
-  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe."
+  ]
 }

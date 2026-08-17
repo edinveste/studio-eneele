@@ -86,7 +86,7 @@
               <path
                 d="M12 21s-7-5.2-9.5-9.7C.5 7.6 2.4 4 6 4c2 0 3.4 1 4 2.3C10.6 5 12 4 14 4c3.6 0 5.5 3.6 3.5 7.3C19 15.8 12 21 12 21z" />
             </svg>
-            <span><strong>+1.100</strong> clientes atendidos</span>
+            <span><strong>{{ dados.trust_clientes }}</strong> clientes atendidos</span>
           </div>
           <div class="trust-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -121,7 +121,7 @@
       <div class="wrap sobre-grid">
         <div class="sobre-media reveal">
           <div class="sobre-photo">
-            <img src="enelle.jpg" alt="Ester Nelle - e'nelle studio" class="sobre-photo-ph" style="object-fit: cover;">
+            <img src="/{{ dados.sobre_img }}" alt="Ester Nelle - e'nelle studio" class="sobre-photo-ph" style="object-fit: cover;">
           </div>
           <div class="sobre-quote">
             <span class="script">Saúde &amp; Beleza</span>
@@ -421,10 +421,10 @@
           <h2>Clientes que voltam sempre</h2>
         </div>
         <div class="stat-row reveal">
-          <div class="stat"><strong>+1.100</strong><span>Seguidoras</span></div>
-          <div class="stat"><strong>108+</strong><span>Trabalhos publicados</span></div>
-          <div class="stat"><strong>5</strong><span>Especialidades</span></div>
-          <div class="stat"><strong>100%</strong><span>Personalizado</span></div>
+          <div class="stat"><strong>{{ dados.estatistica_1 }}</strong><span>Seguidoras</span></div>
+          <div class="stat"><strong>{{ dados.estatistica_2 }}</strong><span>Trabalhos publicados</span></div>
+          <div class="stat"><strong>{{ dados.estatistica_3 }}</strong><span>Especialidades</span></div>
+          <div class="stat"><strong>{{ dados.estatistica_4 }}</strong><span>Personalizado</span></div>
         </div>
         <div class="testi-grid">
           <div class="testi-card reveal">

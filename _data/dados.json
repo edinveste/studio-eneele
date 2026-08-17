@@ -1,9 +1,25 @@
 {
-  "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
-  "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
   "whatsapp_url": "https://wa.me/5511987343215?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%21",
-  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe.",
-  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
+  "resultados_cilios": {
+    "img_antes": "",
+    "img_depois": ""
+  },
+  "resultados_sobrancelhas": {
+    "img_antes": "antes1.jpg",
+    "img_depois": "depois.jpg"
+  },
+  "resultados_unhas": {
+    "img_antes": "",
+    "img_depois": ""
+  },
+  "servicos_cilios": [
+    {
+      "titulo": "Lash Lifting",
+      "desc": "Curvatura e alongamento natural dos próprios cílios, com efeito de máscara todos os dias.",
+      "icon_svg": "<path d=\"M2 12c3-4 7-6 10-6s7 2 10 6c-3 4-7 6-10 6s-7-2-10-6z\" />\n<circle cx=\"12\" cy=\"12\" r=\"2.4\" />"
+    }
+  ],
+  "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
   "servicos_sobrancelhas": [
     {
       "titulo": "Design de Sobrancelhas",
@@ -26,30 +42,18 @@
       "icon_svg": "<path d=\"M4 16c2-7 16-7 16 0\" />\n<path d=\"M6 12c1-2 3-3 6-3s5 1 6 3\" />"
     }
   ],
-  "servicos_cilios": [
-    {
-      "titulo": "Lash Lifting",
-      "desc": "Curvatura e alongamento natural dos próprios cílios, com efeito de máscara todos os dias.",
-      "icon_svg": "<path d=\"M2 12c3-4 7-6 10-6s7 2 10 6c-3 4-7 6-10 6s-7-2-10-6z\" />\n<circle cx=\"12\" cy=\"12\" r=\"2.4\" />"
-    }
-  ],
   "servicos_unhas": [
     {
       "titulo": "Manicure",
       "desc": "Cuidado completo com as unhas, do preparo ao acabamento, com atenção a cada detalhe.",
       "icon_svg": "<path d=\"M8 3v6c0 2 1.5 3 4 3s4-1 4-3V3\" />\n<path d=\"M12 12v9\" />"
+    },
+    {
+      "titulo": "teste",
+      "desc": "testando descrição"
     }
   ],
-  "resultados_sobrancelhas": {
-    "img_antes": "antes1.jpg",
-    "img_depois": "depois.jpg"
-  },
-  "resultados_cilios": {
-    "img_antes": "",
-    "img_depois": ""
-  },
-  "resultados_unhas": {
-    "img_antes": "",
-    "img_depois": ""
-  }
+  "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
+  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
+  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe."
 }

@@ -73,5 +73,9 @@
       "titulo": "teste",
       "desc": "testando descrição"
     }
-  ]
+  ],
+  "tracking": {
+    "google_analytics": "",
+    "meta_pixel": ""
+  }
 }

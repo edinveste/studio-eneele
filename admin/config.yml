@@ -59,3 +59,8 @@ collections:
               {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
             ]}
+
+          - {label: "Tags e Rastreamento (Avançado)", name: "tracking", widget: "object", collapsed: true, fields: [
+              {label: "Google Analytics (Código Completo)", name: "google_analytics", widget: "text", required: false, hint: "Cole o código <script> fornecido pelo Google"},
+              {label: "Meta/Facebook Pixel (Código Completo)", name: "meta_pixel", widget: "text", required: false, hint: "Cole o código <script> fornecido pelo Facebook"}
+            ]}

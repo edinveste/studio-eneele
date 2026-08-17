@@ -16,20 +16,18 @@ collections:
           - {label: "Título Principal", name: "hero_title", widget: "string"}
           - {label: "Subtítulo Principal", name: "hero_desc", widget: "text"}
           - {label: "URL do WhatsApp", name: "whatsapp_url", widget: "string"}
-          
+          - {label: "Número de Clientes (Ex: +1.100)", name: "trust_clientes", widget: "string"}
           - {label: "Localização (Topo e Rodapé)", name: "trust_local", widget: "string"}
           - {label: "Serviços em Destaque (Topo)", name: "trust_servicos", widget: "string"}
           - {label: "Endereço no Mapa (Google Maps)", name: "endereco_mapa", widget: "string"}
-          - {label: "Texto da Esteira Animada", name: "texto_esteira", widget: "string"}
-
-          - {label: "Número de Clientes (Ex: +1.100)", name: "trust_clientes", widget: "string"}
-          - {label: "Imagem da Seção Sobre", name: "sobre_img", widget: "image"}
-          
+          - {label: "Texto da Esteira Animada", name: "texto_esteira", widget: "string"}         
+                    
           - {label: "Estatística 1 (Seguidoras)", name: "estatistica_1", widget: "string"}
           - {label: "Estatística 2 (Trabalhos)", name: "estatistica_2", widget: "string"}
           - {label: "Estatística 3 (Especialidades)", name: "estatistica_3", widget: "string"}
           - {label: "Estatística 4 (Personalizado)", name: "estatistica_4", widget: "string"}
 
+          - {label: "Imagem da Seção Sobre", name: "sobre_img", widget: "image"}
           - {label: "Texto Sobre (Título)", name: "sobre_titulo", widget: "string"}
           - {label: "Texto Sobre (Descrição)", name: "sobre_desc", widget: "text"}
           

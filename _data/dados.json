@@ -17,6 +17,10 @@
       "titulo": "Lash Lifting",
       "desc": "Curvatura e alongamento natural dos próprios cílios, com efeito de máscara todos os dias.",
       "icon_svg": "<path d=\"M2 12c3-4 7-6 10-6s7 2 10 6c-3 4-7 6-10 6s-7-2-10-6z\" />\n<circle cx=\"12\" cy=\"12\" r=\"2.4\" />"
+    },
+    {
+      "titulo": "teste silios",
+      "desc": "testando silios"
     }
   ],
   "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
@@ -40,6 +44,10 @@
       "titulo": "Brow Lamination",
       "desc": "Fios alinhados e disciplinados por semanas, com volume e definição sem maquiagem.",
       "icon_svg": "<path d=\"M4 16c2-7 16-7 16 0\" />\n<path d=\"M6 12c1-2 3-3 6-3s5 1 6 3\" />"
+    },
+    {
+      "titulo": "teste sobrancelhas",
+      "desc": "testando sobrancelhas"
     }
   ],
   "servicos_unhas": [

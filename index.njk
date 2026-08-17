@@ -63,7 +63,7 @@
         <div class="hero-overlay"></div>
       </div>
       <div class="wrap hero-inner reveal">
-        <p class="eyebrow" style="justify-content:center">Vila Curuçá · São Paulo</p>
+        <p class="eyebrow" style="justify-content:center">{{ dados.trust_local }}</p>
         <h1>{{ dados.hero_title | safe }}</h1>
         <p class="lead">{{ dados.hero_desc }}</p>
         <div class="hero-ctas">
@@ -93,14 +93,14 @@
               <path d="M12 21c4-4.5 7-8.2 7-11.5A7 7 0 1 0 5 9.5C5 12.8 8 16.5 12 21z" />
               <circle cx="12" cy="9.5" r="2.4" />
             </svg>
-            <span>Vila Curuçá, São Paulo</span>
+            <span>{{ dados.trust_local }}</span>
           </div>
           <div class="trust-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 12l2 2 4-4" />
               <circle cx="12" cy="12" r="9" />
             </svg>
-            <span>Sobrancelhas · Cílios · Unhas</span>
+            <span>{{ dados.trust_servicos }}</span>
           </div>
         </div>
       </div>
@@ -109,10 +109,8 @@
     <!-- MARQUEE -->
     <div class="marquee">
       <div class="marquee-track">
-        <span>Design ✦ Henna ✦ Microblading ✦ Brow Lamination ✦ Lash Lifting ✦ Unhas ✦ Design ✦ Henna ✦ Microblading ✦
-          Brow Lamination ✦ Lash Lifting ✦ Unhas ✦</span>
-        <span>Design ✦ Henna ✦ Microblading ✦ Brow Lamination ✦ Lash Lifting ✦ Unhas ✦ Design ✦ Henna ✦ Microblading ✦
-          Brow Lamination ✦ Lash Lifting ✦ Unhas ✦</span>
+        <span>{{ dados.texto_esteira }} ✦ {{ dados.texto_esteira }} ✦ {{ dados.texto_esteira }} ✦ </span>
+        <span>{{ dados.texto_esteira }} ✦ {{ dados.texto_esteira }} ✦ {{ dados.texto_esteira }} ✦ </span>
       </div>
     </div>
 
@@ -528,7 +526,7 @@
               <path d="M12 21c4-4.5 7-8.2 7-11.5A7 7 0 1 0 5 9.5C5 12.8 8 16.5 12 21z" />
               <circle cx="12" cy="9.5" r="2.4" />
             </svg>
-            <div><strong>Região</strong><span>Vila Curuçá, São Paulo - SP</span></div>
+            <div><strong>Região</strong><span>{{ dados.trust_local }}</span></div>
           </div>
           <div class="row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -550,8 +548,8 @@
         </div>
         <div class="map-frame reveal">
           <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=Vila+Curu%C3%A7%C3%A1,+S%C3%A3o+Paulo+-+SP&output=embed"
-            title="Mapa da região de Vila Curuçá, São Paulo"></iframe>
+            src="https://www.google.com/maps?q={{ dados.endereco_mapa | urlencode }}&output=embed"
+            title="Mapa da região de {{ dados.endereco_mapa }}"></iframe>
         </div>
       </div>
     </section>
@@ -581,7 +579,7 @@
       <a href="#top" class="brandmark" style="justify-content:center; display:flex;">
         <span class="word"><span class="script">e'nelle</span><small>SAÚDE &amp; BELEZA</small></span>
       </a>
-      <p>Vila Curuçá, São Paulo - SP</p>
+      <p>{{ dados.trust_local }}</p>
       <div class="foot-links">
         <a href="https://www.instagram.com/enelle_studio/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://wa.me/5511987343215" target="_blank" rel="noopener">Agendar</a>

@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "."
+public_folder: "/"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do Site"
+    files:
+      - file: "_data/dados.json"
+        label: "Textos e Serviços"
+        name: "geral"
+        fields:
+          - {label: "Título Principal", name: "hero_title", widget: "string"}
+          - {label: "Subtítulo Principal", name: "hero_desc", widget: "text"}
+          - {label: "URL do WhatsApp", name: "whatsapp_url", widget: "string"}
+          
+          - {label: "Texto Sobre (Título)", name: "sobre_titulo", widget: "string"}
+          - {label: "Texto Sobre (Descrição)", name: "sobre_desc", widget: "text"}
+          
+          - {label: "Serviços - Sobrancelhas", name: "servicos_sobrancelhas", widget: "list", fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"},
+              {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
+            ]}
+          - {label: "Serviços - Cílios", name: "servicos_cilios", widget: "list", fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"},
+              {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
+            ]}
+          - {label: "Serviços - Unhas", name: "servicos_unhas", widget: "list", fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"},
+              {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
+            ]}
+            
+          - {label: "Resultados - Sobrancelhas", name: "resultados_sobrancelhas", widget: "object", fields: [
+              {label: "Imagem Antes", name: "img_antes", widget: "image"},
+              {label: "Imagem Depois", name: "img_depois", widget: "image"}
+            ]}
+          - {label: "Resultados - Cílios", name: "resultados_cilios", widget: "object", fields: [
+              {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
+              {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
+            ]}
+          - {label: "Resultados - Unhas", name: "resultados_unhas", widget: "object", fields: [
+              {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
+              {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
+            ]}

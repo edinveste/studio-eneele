@@ -59,9 +59,8 @@
     <!-- HERO -->
     <section class="hero has-media">
       <div class="hero-media" aria-hidden="true">
-        <!-- Troque "seu-video-aqui.mp4" pelo vídeo do estúdio (formato .mp4, vertical ou 16:9, 10-20s, sem áudio necessário) -->
         <video class="hero-video" autoplay muted loop playsinline poster="">
-          <source src="seu-video-aqui.mp4" type="video/mp4">
+          <source src="/{{ dados.hero_video }}" type="video/mp4">
         </video>
         <div class="hero-overlay"></div>
       </div>
@@ -433,21 +432,13 @@
           <h2>Como funciona</h2>
         </div>
         <div class="steps-grid reveal">
+          {% for passo in dados.como_funciona %}
           <div class="step-card">
-            <span class="step-num">01</span>
-            <h3>Chame no WhatsApp</h3>
-            <p>Conte qual serviço você quer e combine o melhor horário direto pelo WhatsApp.</p>
+            <span class="step-num">{{ passo.numero }}</span>
+            <h3>{{ passo.titulo }}</h3>
+            <p>{{ passo.desc }}</p>
           </div>
-          <div class="step-card">
-            <span class="step-num">02</span>
-            <h3>Confirme o agendamento</h3>
-            <p>Você recebe a confirmação do dia e horário, sem complicação.</p>
-          </div>
-          <div class="step-card">
-            <span class="step-num">03</span>
-            <h3>Apareça e relaxe</h3>
-            <p>No estúdio, é só aproveitar o atendimento personalizado do início ao fim.</p>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -551,8 +542,8 @@
         <use href="#leaf" />
       </svg>
       <div class="wrap reveal">
-        <h2>Pronta para sua transformação?</h2>
-        <p>Sobrancelhas, cílios ou unhas — o cuidado começa com uma mensagem.</p>
+        <h2>{{ dados.cta_final.titulo }}</h2>
+        <p>{{ dados.cta_final.desc }}</p>
         <div class="btn-group">
           <a class="btn btn-light"
             href="https://wa.me/5511987343215?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%21"

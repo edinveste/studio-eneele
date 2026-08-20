@@ -13,6 +13,7 @@ collections:
         label: "Textos e Serviços"
         name: "geral"
         fields:
+          - {label: "Vídeo Principal (Hero)", name: "hero_video", widget: "file", required: false, hint: "Vídeo de fundo no topo do site (.mp4)"}
           - {label: "Título Principal", name: "hero_title", widget: "string"}
           - {label: "Subtítulo Principal", name: "hero_desc", widget: "text"}
           - {label: "URL do WhatsApp", name: "whatsapp_url", widget: "string"}
@@ -60,6 +61,12 @@ collections:
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
             ]}
 
+          - {label: "Seção: Como Funciona", name: "como_funciona", widget: "list", collapsed: true, fields: [
+              {label: "Número (Ex: 01)", name: "numero", widget: "string"},
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"}
+            ]}
+
           - {label: "Depoimentos", name: "depoimentos", widget: "list", collapsed: true, fields: [
               {label: "Estrelas (ex: ★★★★★)", name: "estrelas", widget: "string", default: "★★★★★"},
               {label: "Texto", name: "texto", widget: "text"},
@@ -71,6 +78,11 @@ collections:
           - {label: "Perguntas e Respostas (FAQ)", name: "faq", widget: "list", collapsed: true, fields: [
               {label: "Pergunta", name: "pergunta", widget: "string"},
               {label: "Resposta", name: "resposta", widget: "text"}
+            ]}
+
+          - {label: "Seção Final (CTA)", name: "cta_final", widget: "object", collapsed: true, fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"}
             ]}
 
           - {label: "Tags e Rastreamento (Avançado)", name: "tracking", widget: "object", collapsed: true, fields: [

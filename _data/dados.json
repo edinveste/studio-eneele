@@ -1,4 +1,26 @@
 {
+  "hero_video": "seu-video-aqui.mp4",
+  "como_funciona": [
+    {
+      "numero": "01",
+      "titulo": "Chame no WhatsApp",
+      "desc": "Conte qual serviço você quer e combine o melhor horário direto pelo WhatsApp."
+    },
+    {
+      "numero": "02",
+      "titulo": "Confirme o agendamento",
+      "desc": "Você recebe a confirmação do dia e horário, sem complicação."
+    },
+    {
+      "numero": "03",
+      "titulo": "Apareça e relaxe",
+      "desc": "No estúdio, é só aproveitar o atendimento personalizado do início ao fim."
+    }
+  ],
+  "cta_final": {
+    "titulo": "Pronta para sua transformação?",
+    "desc": "Sobrancelhas, cílios ou unhas — o cuidado começa com uma mensagem."
+  },
   "trust_clientes": "+1.100",
   "whatsapp_url": "https://wa.me/5511987343215?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%21",
   "resultados_cilios": [],

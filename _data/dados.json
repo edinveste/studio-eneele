@@ -14,18 +14,55 @@
   "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
   "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe.",
   "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
-  "resultados_cilios": {
-    "img_antes": "",
-    "img_depois": ""
-  },
-  "resultados_sobrancelhas": {
-    "img_antes": "antes1.jpg",
-    "img_depois": "depois.jpg"
-  },
-  "resultados_unhas": {
-    "img_antes": "",
-    "img_depois": ""
-  },
+  "resultados_cilios": [],
+  "resultados_sobrancelhas": [
+    {
+      "img_antes": "antes1.jpg",
+      "img_depois": "depois.jpg"
+    }
+  ],
+  "resultados_unhas": [],
+  "depoimentos": [
+    {
+      "estrelas": "★★★★★",
+      "texto": "\"Fiz o design com henna e amei o resultado, super natural e durou muito mais do que eu esperava.\"",
+      "inicial": "C",
+      "nome": "Camila",
+      "tipo": "Cliente de sobrancelhas"
+    },
+    {
+      "estrelas": "★★★★★",
+      "texto": "\"O lash lifting mudou meu olhar, pareço estar sempre com máscara de cílios sem usar nada.\"",
+      "inicial": "B",
+      "nome": "Bianca",
+      "tipo": "Cliente de lash lifting"
+    },
+    {
+      "estrelas": "★★★★★",
+      "texto": "\"Atendimento super atencioso, dá pra resolver sobrancelha e unha no mesmo horário. Recomendo muito.\"",
+      "inicial": "L",
+      "nome": "Larissa",
+      "tipo": "Cliente fidelizada"
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "Preciso agendar com antecedência?",
+      "resposta": "Sim, o atendimento é particular e por horário marcado. Chame no WhatsApp para ver a próxima data disponível."
+    },
+    {
+      "pergunta": "Posso fazer sobrancelha, cílio e unha no mesmo dia?",
+      "resposta": "Sim! É só avisar no agendamento quais serviços você quer combinar para organizarmos o horário certinho."
+    },
+    {
+      "pergunta": "Qual a diferença entre design, henna e microblading?",
+      "resposta": "O design modela o formato da sobrancelha, a henna intensifica a cor por algumas semanas, e o microblading é uma técnica fio a fio para preencher falhas. No agendamento eu te ajudo a escolher a melhor opção."
+    },
+    {
+      "pergunta": "Onde fica o estúdio?",
+      "resposta": "O atendimento é em Vila Curuçá, São Paulo - SP. O endereço completo é enviado na confirmação do agendamento."
+    }
+  ],
   "servicos_cilios": [
     {
       "titulo": "Lash Lifting",

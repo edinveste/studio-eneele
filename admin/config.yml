@@ -41,23 +41,79 @@ collections:
               {label: "Descrição", name: "desc", widget: "text"},
               {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
             ]}
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "."
+public_folder: "/"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do Site"
+    files:
+      - file: "_data/dados.json"
+        label: "Textos e Serviços"
+        name: "geral"
+        fields:
+          - {label: "Título Principal", name: "hero_title", widget: "string"}
+          - {label: "Subtítulo Principal", name: "hero_desc", widget: "text"}
+          - {label: "URL do WhatsApp", name: "whatsapp_url", widget: "string"}
+          - {label: "Número de Clientes (Ex: +1.100)", name: "trust_clientes", widget: "string"}
+          - {label: "Localização (Topo e Rodapé)", name: "trust_local", widget: "string"}
+          - {label: "Serviços em Destaque (Topo)", name: "trust_servicos", widget: "string"}
+          - {label: "Endereço no Mapa (Google Maps)", name: "endereco_mapa", widget: "string"}
+          - {label: "Texto da Esteira Animada", name: "texto_esteira", widget: "string"}         
+                    
+          - {label: "Estatística 1 (Seguidoras)", name: "estatistica_1", widget: "string"}
+          - {label: "Estatística 2 (Trabalhos)", name: "estatistica_2", widget: "string"}
+          - {label: "Estatística 3 (Especialidades)", name: "estatistica_3", widget: "string"}
+          - {label: "Estatística 4 (Personalizado)", name: "estatistica_4", widget: "string"}
+
+          - {label: "Imagem da Seção Sobre", name: "sobre_img", widget: "image"}
+          - {label: "Texto Sobre (Título)", name: "sobre_titulo", widget: "string"}
+          - {label: "Texto Sobre (Descrição)", name: "sobre_desc", widget: "text"}
+          
+          - {label: "Serviços - Sobrancelhas", name: "servicos_sobrancelhas", widget: "list", fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"},
+              {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
+            ]}
+          - {label: "Serviços - Cílios", name: "servicos_cilios", widget: "list", fields: [
+              {label: "Título", name: "titulo", widget: "string"},
+              {label: "Descrição", name: "desc", widget: "text"},
+              {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
+            ]}
           - {label: "Serviços - Unhas", name: "servicos_unhas", widget: "list", fields: [
               {label: "Título", name: "titulo", widget: "string"},
               {label: "Descrição", name: "desc", widget: "text"},
               {label: "Ícone SVG (Código)", name: "icon_svg", widget: "text", required: false}
             ]}
             
-          - {label: "Resultados - Sobrancelhas", name: "resultados_sobrancelhas", widget: "object", collapsed: true, fields: [
+          - {label: "Resultados - Sobrancelhas", name: "resultados_sobrancelhas", widget: "list", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image"},
               {label: "Imagem Depois", name: "img_depois", widget: "image"}
             ]}
-          - {label: "Resultados - Cílios", name: "resultados_cilios", widget: "object", collapsed: true, fields: [
+          - {label: "Resultados - Cílios", name: "resultados_cilios", widget: "list", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
             ]}
-          - {label: "Resultados - Unhas", name: "resultados_unhas", widget: "object", collapsed: true, fields: [
+          - {label: "Resultados - Unhas", name: "resultados_unhas", widget: "list", collapsed: true, fields: [
               {label: "Imagem Antes", name: "img_antes", widget: "image", required: false},
               {label: "Imagem Depois", name: "img_depois", widget: "image", required: false}
+            ]}
+
+          - {label: "Depoimentos", name: "depoimentos", widget: "list", collapsed: true, fields: [
+              {label: "Estrelas (ex: ★★★★★)", name: "estrelas", widget: "string", default: "★★★★★"},
+              {label: "Texto", name: "texto", widget: "text"},
+              {label: "Inicial da Foto (ex: C)", name: "inicial", widget: "string"},
+              {label: "Nome do Cliente", name: "nome", widget: "string"},
+              {label: "Descrição do Cliente (ex: Cliente de sobrancelhas)", name: "tipo", widget: "string"}
+            ]}
+
+          - {label: "Perguntas e Respostas (FAQ)", name: "faq", widget: "list", collapsed: true, fields: [
+              {label: "Pergunta", name: "pergunta", widget: "string"},
+              {label: "Resposta", name: "resposta", widget: "text"}
             ]}
 
           - {label: "Tags e Rastreamento (Avançado)", name: "tracking", widget: "object", collapsed: true, fields: [

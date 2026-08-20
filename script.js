@@ -108,17 +108,7 @@ tabButtons.forEach((btn) => {
 
 // Antes / Depois: abas de categoria + slider arrastável
 const baTabs = document.querySelectorAll('.ba-tab');
-const baFrames = document.querySelectorAll('.ba-frame');
-const baRange = document.getElementById('baRange');
-
-function updateActiveBaFrame(value) {
-  const activeFrame = document.querySelector('.ba-frame:not([hidden])');
-  if (!activeFrame) return;
-  const before = activeFrame.querySelector('.ba-before');
-  const handle = activeFrame.querySelector('.ba-handle');
-  before.style.clipPath = `inset(0 ${100 - value}% 0 0)`;
-  handle.style.left = value + '%';
-}
+const baContainers = document.querySelectorAll('.ba-container');
 
 baTabs.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -131,21 +121,37 @@ baTabs.forEach((btn) => {
     btn.classList.add('is-active');
     btn.setAttribute('aria-selected', 'true');
 
-    baFrames.forEach((frame) => {
-      frame.hidden = frame.dataset.bapanel !== target;
+    baContainers.forEach((container) => {
+      container.hidden = container.dataset.bapanel !== target;
+      if (!container.hidden) {
+        const range = container.querySelector('.ba-range');
+        const before = container.querySelector('.ba-before');
+        const handle = container.querySelector('.ba-handle');
+        if (range && before && handle) {
+          range.value = 50;
+          before.style.clipPath = `inset(0 50% 0 0)`;
+          handle.style.left = '50%';
+        }
+      }
     });
-
-    if (baRange) {
-      baRange.value = 50;
-      updateActiveBaFrame(50);
-    }
   });
 });
 
-if (baRange) {
-  baRange.addEventListener('input', (e) => updateActiveBaFrame(e.target.value));
-  updateActiveBaFrame(50);
-}
+baContainers.forEach((container) => {
+  const range = container.querySelector('.ba-range');
+  const before = container.querySelector('.ba-before');
+  const handle = container.querySelector('.ba-handle');
+  if (range && before && handle) {
+    range.addEventListener('input', (e) => {
+      const val = e.target.value;
+      before.style.clipPath = `inset(0 ${100 - val}% 0 0)`;
+      handle.style.left = val + '%';
+    });
+    // inicializar no meio
+    before.style.clipPath = `inset(0 50% 0 0)`;
+    handle.style.left = '50%';
+  }
+});
 
 // FAQ: acordeão
 const faqItems = document.querySelectorAll('.faq-item');

@@ -1,7 +1,9 @@
 {
   "trust_clientes": "+1.100",
   "whatsapp_url": "https://wa.me/5511987343215?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%21",
-  "resultados_cilios": [],
+  "resultados_cilios": [
+    {}
+  ],
   "resultados_sobrancelhas": [
     {
       "img_antes": "antes1.jpg",
@@ -63,10 +65,6 @@
       "titulo": "Lash Lifting",
       "desc": "Curvatura e alongamento natural dos próprios cílios, com efeito de máscara todos os dias.",
       "icon_svg": "<path d=\"M2 12c3-4 7-6 10-6s7 2 10 6c-3 4-7 6-10 6s-7-2-10-6z\" />\n<circle cx=\"12\" cy=\"12\" r=\"2.4\" />"
-    },
-    {
-      "titulo": "teste silios",
-      "desc": "testando silios"
     }
   ],
   "hero_title": "Sobrancelhas, cílios e unhas <em>com a assinatura e'nelle.</em>",
@@ -114,23 +112,23 @@
     },
     {
       "pergunta": "Qual a diferença entre design, henna e microblading?",
-      "resposta": "O design modela o formato da sobrancelha, a henna intensifica a cor por algumas semanas, e o microblading é uma técnica fio a fio para preencher falhas. No agendamento eu te ajudo a escolher a melhor opção."
+      "resposta": "O design modela o formato da sobrancelha, a henna intensifica a cor por alguns dias, e o microblading é uma técnica fio a fio para preencher falhas. No agendamento eu te ajudo a escolher a melhor opção."
     },
     {
       "pergunta": "Onde fica o estúdio?",
       "resposta": "O atendimento é em Vila Curuçá, São Paulo - SP. O endereço completo é enviado na confirmação do agendamento."
     }
   ],
-  "hero_desc": "Design de sobrancelhas, henna, microblading, brow lamination, lash lifting e manicure em um único espaço, cuidado por quem entende de beleza de verdade.",
+  "hero_desc": "\nDesign de sobrancelhas, henna, microblading, brow lamination, lash lifting, manicure, massagens, limpeza de pele e muito mais em um único espaço, cuidado por quem entende de beleza de verdade.",
   "hero_video": "seu-video-aqui.mp4",
-  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, esteticista e manicure, e reúne em um só estúdio técnicas que normalmente exigem vários profissionais diferentes: design, henna, microblading, brow lamination, lash lifting e manicure.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
+  "sobre_desc": "Ester Nelle é especialista em sobrancelhas, e reúne em um só Studio, profissionais especializadas em unhas e estética integrativa: design, henna, microblading, brow lamination, lash lifting, manicure, massagens, limpeza de pele, clareamentos e muito mais.\n\nO resultado é um atendimento personalizado, pensado para o seu tempo, do primeiro traço ao acabamento final.",
   "tracking": {
     "google_analytics": "",
     "meta_pixel": ""
   },
   "endereco_mapa": "Vila Curuçá, São Paulo - SP",
-  "trust_servicos": "Sobrancelhas · Cílios · Unhas",
-  "texto_esteira": "Design ✦ Henna ✦ Microblading ✦ Brow Lamination ✦ Lash Lifting ✦ Unhas",
+  "trust_servicos": "Sobrancelhas · Cílios · Unhas · estética",
+  "texto_esteira": "Design ✦ Henna ✦ Microblmading ✦ Brow Lamination ✦ Lash Lifting ✦ Unhas",
   "sobre_img": "/1000400400.jpg",
-  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe."
+  "sobre_titulo": "Um único espaço para cuidar de sobrancelhas, cílios e unhas com a mesma atenção ao detalhe.j"
 }
